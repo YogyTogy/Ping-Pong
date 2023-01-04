@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#paddle1{
+    position: absolute;
+    left: 0px;
+    top: 460px;
+    width: 30px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50px;
+}
+#paddle2{
+    position: absolute;
+    right: 0px;
+    top: 460px;
+    width: 30px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50px;
+}
+#ball{
+    position: absolute;
+    left: 820px;
+    top: 510px;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+}
